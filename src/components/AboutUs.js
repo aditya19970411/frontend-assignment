@@ -30,7 +30,10 @@ const customImageVal = [
 
 const AboutUs = () => {
   return (
-    <div className="flex flex-col pt-20 px-[50px] max-w-6xl m-auto box-border">
+    <div
+      id="about-us"
+      className="flex flex-col pt-5 lg:pt-20 pb-20 px-5 lg:px-[50px] max-w-6xl m-auto box-border"
+    >
       <div
         className="text-[64px] font-bold flex"
         style={{ lineHeight: "110%" }}
@@ -43,7 +46,7 @@ const AboutUs = () => {
       >
         Allow us to tell you a short story...
       </div>
-      <div className="flex mt-14">
+      <div className="lg:flex mt-14 hidden">
         <div className="flex flex-col flex-1 mr-[30px]">
           {[customImageVal[0], customImageVal[2]].map((au, index) => (
             <CustomImage
@@ -94,6 +97,31 @@ const AboutUs = () => {
             </CustomImage>
           ))}
         </div>
+      </div>
+      <div className="mt-14 flex flex-col lg:hidden">
+        {customImageVal.map((au, index) => (
+          <CustomImage
+            src={au.img}
+            alt={"About us " + index + 1}
+            key={index}
+            className={`${index !== 0 && "mt-[86px]"}`}
+          >
+            <div className="flex flex-col items-start">
+              <span
+                className="text-base font-bold"
+                style={{ lineHeight: "110%" }}
+              >
+                {au.heading}
+              </span>
+              <span
+                className="text-xs font-light mt-[11px] text-start"
+                style={{ lineHeight: "110%" }}
+              >
+                {au.text}
+              </span>
+            </div>
+          </CustomImage>
+        ))}
       </div>
     </div>
   );
