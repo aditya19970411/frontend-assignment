@@ -3,7 +3,7 @@ import logo from "../assets/logo-black.png";
 
 const Footer = () => {
   return (
-    <footer className="flex px-24 mt-20">
+    <footer className="flex px-24 mt-36">
       <div className="flex flex-col">
         <img src={logo} alt="Logo" />
         <span

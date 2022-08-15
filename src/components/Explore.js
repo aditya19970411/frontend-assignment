@@ -20,7 +20,7 @@ const customImageVal = [
 
 const Explore = () => {
   return (
-    <div className="flex flex-col pt-20 px-[50px] max-w-6xl m-auto box-border">
+    <div className="flex flex-col py-20 px-[50px] max-w-6xl m-auto box-border">
       <div
         className="text-[64px] font-bold flex"
         style={{ lineHeight: "110%" }}
@@ -39,7 +39,7 @@ const Explore = () => {
       <div className="flex justify-between mt-14">
         {customImageVal.map((e, index) => (
           <CustomImage
-            className="flex mr-[30px]"
+            className={`flex ${index === 0 && "mr-[30px]"}`}
             src={e.img}
             alt={"Explore " + (index + 1)}
             key={index}
