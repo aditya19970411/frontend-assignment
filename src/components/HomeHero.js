@@ -28,6 +28,8 @@ const HomeHero = () => {
             background:
               "linear-gradient(94.43deg, rgba(249, 249, 249, 0.49) 34.95%, rgba(249, 249, 249, 0.175) 67.01%)",
             backdropFilter: "blur(10px)",
+            border: "1px solid",
+            borderColor: "rgba(255, 255, 255, 1)",
           }}
         >
           <div className="flex flex-1 flex-col h-[70px] rounded-2xl bg-white mr-3 items-start px-3 py-2 justify-between">
