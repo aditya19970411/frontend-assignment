@@ -1,9 +1,9 @@
 import React from "react";
 import CustomImage from "./CustomImage";
-import aboutUs1 from "../assets/about-us-1.png";
-import aboutUs2 from "../assets/about-us-2.png";
-import aboutUs3 from "../assets/about-us-3.png";
-import aboutUs4 from "../assets/about-us-4.png";
+import aboutUs1 from "../assets/about-us-1.webp";
+import aboutUs2 from "../assets/about-us-2.webp";
+import aboutUs3 from "../assets/about-us-3.webp";
+import aboutUs4 from "../assets/about-us-4.webp";
 
 const customImageVal = [
   {

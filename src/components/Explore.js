@@ -1,7 +1,7 @@
 import React from "react";
 import CustomImage from "./CustomImage";
-import explore1 from "../assets/explore-1.png";
-import explore2 from "../assets/explore-2.png";
+import explore1 from "../assets/explore-1.webp";
+import explore2 from "../assets/explore-2.webp";
 
 const customImageVal = [
   {

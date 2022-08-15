@@ -1,6 +1,6 @@
 import React from "react";
-import homeHero from "../assets/home-hero-desktop.png";
-import wave from "../assets/wave.png";
+import homeHero from "../assets/home-hero-desktop.webp";
+import wave from "../assets/wave.webp";
 import Header from "./Header";
 import { ReactComponent as Search } from "../assets/svg/search.svg";
 import { ReactComponent as BottomCaret } from "../assets/svg/bottom-caret.svg";

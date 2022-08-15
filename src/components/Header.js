@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 import { ReactComponent as BottomCaret } from "../assets/svg/bottom-caret.svg";
 import { ReactComponent as Menu } from "../assets/svg/menu.svg";
 import { ReactComponent as Cross } from "../assets/svg/cross.svg";
